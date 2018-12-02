@@ -1,0 +1,10 @@
+#library(devtools)
+
+devtools::document()
+devtools::check_man()
+devtools::test()
+devtools::use_vignette(name = "Introduction")
+devtools::build_vignettes()
+devtools::install(build_vignettes = TRUE)
+devtools::build()
+devtools::install()

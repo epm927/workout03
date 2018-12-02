@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#' @export\nplot <- function(x, number = x$total) {\n  barplot(table(x$rolls) / x$total,\n          border = \"grey\",\n          xlab = \"sides of device\",\n          ylab = \"relative frequencies\",\n          main = paste(\"Relative Frequencies in a series of\", number, \"rolls\")\n  )\n}\n",
+    "created" : 1543787702484.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3289359844",
+    "id" : "E9CAFA7F",
+    "lastKnownWriteTime" : 1543785827,
+    "last_content_update" : 1543785827,
+    "path" : "~/Desktop/roller/R/plot-rolls.R",
+    "project_path" : "R/plot-rolls.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
